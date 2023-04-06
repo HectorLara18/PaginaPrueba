@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,32 +11,38 @@
 
     <script src="https://kit.fontawesome.com/0b10ac7f7d.js" crossorigin="anonymous"></script>
 
-    <!--Main-->
+    <script src="https://kit.fontawesome.com/0b10ac7f7d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Pagina de Pruba</title>
 </head>
 
 <body>
-    <header class="main-header">
-        <ul class="header-ul">
-            <li class="header-li">Titulo Pagina de Prueba</li>
-            <li class="header-li li-hover">Servicios</li>
-            <li class="header-li li-hover">Contacto</li>
-            <li class="header-li li-hover">Cotizaciones</li>
-            <li class="header-li li-hover li-icons-img li-left">
-                <i class="fa-brands fa-square-facebook logo-image"></i>
-            </li>
-            <li class="header-li li-hover li-icons-img">
-                <i class="fa-brands fa-instagram logo-image"></i>
-            </li>
-            <li class="header-li li-hover li-icons-img">
-                <i class="fa-brands fa-whatsapp logo-image"></i>
-            </li>
-        </ul>
-    </header>
-    <main class="main-element">
 
-    </main>
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active text-menu">Test title</a>
+        <a href="#news" class="text-menu">Servicios</a>
+        <a href="#contact" class="text-menu">Contacto</a>
+        <a href="#about" class="text-menu">Cotizaciones</a>
+        <a href="" class="li-left logo-image li-icons-img">
+            <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="" class="logo-image li-icons-img">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="" class="logo-image li-icons-img">
+            <i class="fa-brands fa-whatsapp"></i>
+            
+        </a>
+        <a href="javascript:void(0);" class="icon logo-image li-icons-img" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div class="testo">
+        <h2>Responsive Topnav Example</h2>
+        <p>Resize the browser window to see how it works.</p>
+    </div>
+
+    <script src="main.js"></script>
 </body>
 
 </html>
