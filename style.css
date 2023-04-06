@@ -10,6 +10,7 @@
     --background-header: #2e2e2e;
     --background-header-hover: #636060;
     --border-header: #E6AF2E;
+    --border-text: #f7dbbc;
 
     
 
@@ -170,4 +171,68 @@
     }
 
 
+}
+
+.grid-container{
+    display: grid;
+    grid-column: auto auto auto;
+    gap: 15px;
+    
+}
+
+.main-text{
+    font-size: 1.6rem;
+    justify-content:center;
+    text-align: justify;
+    margin: 2rem;
+    padding: 1rem;
+    background-color: var(--border-text);
+    border-radius: 5px;
+    
+    grid-column: 1 / span 3;
+}
+
+.grid-w-img{
+    cursor: pointer;
+    margin: 1%;
+    width: 95%;
+}
+
+.contenido h3{
+    font-size: 3rem;
+    justify-content:center;
+    text-align: justify;
+    background-color: var(--border-text);
+    padding-bottom: 0.5rem;
+}
+
+.contenido p{
+    font-size: 1.5rem;
+    justify-content:center;
+    text-align: justify;
+    background-color: var(--border-text);
+}
+
+.grid-item1{
+    grid-column: 1;
+}
+
+.grid-item2{
+    grid-column: 2;
+}
+
+.grid-item3{
+    grid-column: 3;
+}
+
+.grid-w-img img{
+    width: 100%;
+}
+
+footer{
+    background-color: var(--background-header-hover);
+    font-size: 1.5rem;
+    height: 5rem;
+    text-align: center;
+    vertical-align: baseline;
 }
