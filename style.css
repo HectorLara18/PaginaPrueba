@@ -2,4 +2,26 @@
     margin: 0;
     padding: 0%;
     box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+
+
+    --background-color: #F3F3F4;
+    --background-header: #2e2e2e;
+
+    
+
+}
+
+.main-header{
+    font-size: 4rem;
+    background-color: var(--background-header);
+    color: white;
+    width: 100%;
+    height: 5rem;
+    justify-content: center;
+}
+
+.main-element{
+    background-color: var(--background-color);
 }
