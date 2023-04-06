@@ -38,6 +38,7 @@
     height: 100%;
     justify-content: center;
     text-align: center;
+    vertical-align: middle;
     cursor: pointer;
     padding: 1rem;
 }
@@ -48,5 +49,24 @@
 }
 
 .li-icons{
+    margin-left: auto;
+    vertical-align: middle;
+}
+
+.logo-image{
+    vertical-align:top;
+}
+
+.li-icons-img{
+    
+    padding-top: 0.5rem;
+}
+
+.li-icons-img i{
+    font-size: 1.8em;
+    vertical-align: top;
+}
+
+.li-left{
     margin-left: auto;
 }
